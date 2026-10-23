@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 export default function Page() {
   return (
@@ -10,9 +9,7 @@ export default function Page() {
         <p className="text-lg mb-2">
           Capturing moments with a refined, understated aesthetic. I specialize in portrait and landscape photography.
         </p>
-        <Button asChild>
-          <a href="#contact" className="mt-4 inline-block">Get In Touch</a>
-        </Button>
+        <a href="#contact" className="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded">Get In Touch</a>
       </section>
 
       {/* Gallery Section */}
